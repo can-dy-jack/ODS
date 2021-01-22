@@ -2,6 +2,7 @@
   "pages": [
     "pages/index/index",
     "pages/home/home",
+    "pages/download/dowanload",
     "pages/logs/logs",
     "pages/userConsole/userConsole",
     "pages/storageConsole/storageConsole",
@@ -14,7 +15,10 @@
     "pages/openapi/callback/callback",
     "pages/openapi/cloudid/cloudid",
     "pages/im/im",
-    "pages/im/room/room"
+    "pages/im/room/room",
+    "pages/download/ing/ing",
+    "pages/download/delete/del",
+    "pages/download/download/load"
   ],
   "window": {
     "backgroundTextStyle": "dark",
@@ -35,6 +39,12 @@
       "text": "主页",
       "iconPath": "icon/home.png",
       "selectedIconPath": "icon/home-focus.png"
+    },
+    {
+      "pagePath": "pages/download/dowanload",
+      "text": "下载",
+      "iconPath": "icon/下载.png",
+      "selectedIconPath": "icon/下载-focus.png"
     }
   ],
   "selectedColor": "#0090ff"

@@ -1,6 +1,8 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/home/home",
+    "pages/logs/logs",
     "pages/userConsole/userConsole",
     "pages/storageConsole/storageConsole",
     "pages/databaseGuide/databaseGuide",
@@ -15,11 +17,27 @@
     "pages/im/room/room"
   ],
   "window": {
-    "backgroundColor": "#F6F6F6",
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
-    "navigationBarTextStyle": "black"
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#0090ff", 
+    "navigationBarTitleText": "海洋数据共享",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "我的",
+      "iconPath": "icon/me.png",
+      "selectedIconPath": "icon/me-focus.png"
+    },
+    {
+      "pagePath": "pages/home/home",
+      "text": "主页",
+      "iconPath": "icon/home.png",
+      "selectedIconPath": "icon/home-focus.png"
+    }
+  ],
+  "selectedColor": "#0090ff"
   },
   "sitemapLocation": "sitemap.json",
   "style": "v2"

@@ -1,3 +1,11 @@
 <!--pages/logs/logs.wxml-->
 
-<text>日志文件</text>
+<view class="bodyText" >
+  <view wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="id">
+    {{index+1}}、 {{item.description}} <text class="log_time">( {{item.time}} )</text>
+  </view>
+</view>
+
+<view id="colortip">
+  <text>紫檀色</text>
+</view>

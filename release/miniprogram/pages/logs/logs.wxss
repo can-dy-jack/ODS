@@ -1,2 +1,14 @@
 /* pages/logs/logs.wxss */
-@import "../../style/guide.wxss";
+.bodyText {
+  font-size: 18px;
+  padding-left: 15px;
+}
+.log_time {
+  font-size: 12px;
+}
+#colortip {
+  position: fixed;
+  right: 3px;top: 2px;
+  font-size: 8px;
+  color: #4c221b;
+}

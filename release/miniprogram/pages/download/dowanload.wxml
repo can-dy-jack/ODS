@@ -4,8 +4,8 @@
 
   <!-- 日志-->
   <view  class="uploader">
-    <navigator url="../logs/logs" open-type="navigate" class="uploader-text">
-      <text>查看日志</text>
+    <navigator url="loadlog/loadlog" open-type="navigate" class="uploader-text">
+      <text>下载记录</text>
     </navigator>
   </view>
   <!-- 正在下载 -->

@@ -1,9 +1,10 @@
 {
   "pages": [
-    "pages/index/index",
     "pages/home/home",
+    "pages/index/index",
     "pages/download/dowanload",
     "pages/logs/logs",
+    "pages/test/test",
     "pages/userConsole/userConsole",
     "pages/storageConsole/storageConsole",
     "pages/databaseGuide/databaseGuide",
@@ -48,7 +49,8 @@
       "selectedIconPath": "icon/下载-focus.png"
     }
   ],
-  "selectedColor": "#0090ff"
+  "selectedColor": "#0090ff",
+  "position": "bottom"
   },
   "sitemapLocation": "sitemap.json",
   "style": "v2"

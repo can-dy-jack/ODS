@@ -1,23 +1,16 @@
-<!--pages/home/home.wxml-->
-
+<!-- pages/home/home.wxml -->
 <view class="container">
-  <!-- 日志-->
-  <view  class="uploader">
+  <!-- 日志 -->
+  <view class="uploader">
     <navigator url="../logs/logs" open-type="navigate" class="uploader-text">
       <text>{{msg}}</text>
     </navigator>
   </view>
 
-  <view>
-    <checkbox checked="{{idFree}}"></checkbox>
+  <!-- 测试 -->
+  <view class="uploader">
+    <navigator url="../test/test" open-type="navigate" class="uploader-text">
+      <text>{{test}}</text>
+    </navigator>
   </view>
-
-  <view>
-    <view wx:for="{{datas}}" wx:for-item="value" wx:for-index="key" wx:key="sum">
-      key：{{key}}
-      ------------
-      values：{{value}}
-    </view>
-  </view>
-
 </view>

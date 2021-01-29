@@ -1,0 +1,10 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+#skip-to-content {
+	background-color: red; /* 不支持线性的时候显示 */
+    background-image: linear-gradient(to right, #155A96 , #159160);
+    color:white;
+}

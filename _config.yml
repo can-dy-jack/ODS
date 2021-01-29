@@ -4,8 +4,13 @@ url: "https://kartjim.top/ODS"
 
 theme: jekyll-theme-cayman
 
-show_downloads: true # 源码下载
+# show_downloads: true # 源码下载
 
-github:
-  zip_url: /test/main.html
-  another_url: https://kartjim.top
+# github:
+  # zip_url: ...
+  # another_url: https://kartjim.top
+
+
+# 自定义
+site.shou_myblog: true
+my_blog: https://kartjim.top

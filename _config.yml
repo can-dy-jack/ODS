@@ -12,5 +12,5 @@ theme: jekyll-theme-cayman
 
 
 # 自定义
-site.shou_myblog: true
+shou_myblog: true
 my_blog: https://kartjim.top

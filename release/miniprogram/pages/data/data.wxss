@@ -1,0 +1,4 @@
+/* pages/data/data.wxss */
+.box_data {
+    padding: 15px;
+}

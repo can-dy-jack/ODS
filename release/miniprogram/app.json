@@ -1,10 +1,12 @@
 {
   "pages": [
-    "pages/home/home",
     "pages/index/index",
+    "pages/home/home",
     "pages/download/dowanload",
     "pages/logs/logs",
     "pages/test/test",
+    "pages/data/data",
+
     "pages/userConsole/userConsole",
     "pages/storageConsole/storageConsole",
     "pages/databaseGuide/databaseGuide",
@@ -17,6 +19,7 @@
     "pages/openapi/cloudid/cloudid",
     "pages/im/im",
     "pages/im/room/room",
+
     "pages/download/ing/ing",
     "pages/download/delete/del",
     "pages/download/download/load",

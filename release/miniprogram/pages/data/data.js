@@ -1,10 +1,13 @@
-// pages/home/home.js
+// pages/data/data.js
 Page({
+
+  /**
+   * 页面的初始数据
+   */
   data: {
-    msg: "日志",
-    test: "测试",
-    datas: "数据",
+    projectName: "基于MongoDB数据库实现海洋数据的实时存储和统计分析"
   },
+
   /**
    * 生命周期函数--监听页面加载
    */
@@ -43,15 +46,21 @@ Page({
   /**
    * 页面相关事件处理函数--监听用户下拉动作
    */
-  onPullDownRefresh: function () {},
+  onPullDownRefresh: function () {
+
+  },
 
   /**
    * 页面上拉触底事件的处理函数
    */
-  onReachBottom: function () {},
+  onReachBottom: function () {
+
+  },
 
   /**
    * 用户点击右上角分享
    */
-  onShareAppMessage: function () {}
+  onShareAppMessage: function () {
+
+  }
 })

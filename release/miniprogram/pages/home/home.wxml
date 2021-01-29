@@ -13,4 +13,11 @@
       <text>{{test}}</text>
     </navigator>
   </view>
+
+  <!-- 数据 -->
+  <view class="uploader">
+    <navigator url="../data/data" open-type="navigate" class="uploader-text">
+      <text>{{datas}}</text>
+    </navigator>
+  </view>
 </view>

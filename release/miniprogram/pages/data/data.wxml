@@ -1,0 +1,4 @@
+<!--pages/data/data.wxml-->
+<view class="box_data">
+    <view>{{projectName}}</view>
+</view>

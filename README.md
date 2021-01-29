@@ -39,3 +39,13 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
 
+
+<div>
+<h2>About Us</h2>
+<p>Lorem ipsum dolor si iste exercitationem v
+llendus laudantium ab possimus nemo odio cumque illum n
+ulla laborum blanditiis unde.</p>
+<p>consectetur adipisicing elit.  ut iste ipsum repe
+llendus laudantium ab possimus nemo odio cumque illum n
+ulla laborum blanditiis unde.</p>
+</div>

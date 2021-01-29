@@ -1,7 +1,8 @@
 title: 海洋数据分享
 description: Ocean data sharing   —— 微信小程序
+url: "https://kartjim.top/ODS"
 
 theme: jekyll-theme-cayman
 show_downloads: false # 源码下载
 
-
+favicon: /img/shou.jpg

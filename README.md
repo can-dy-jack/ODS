@@ -1,4 +1,4 @@
-<button><a href="a.html">html</a></button>
+<button><a href="/test/main.html">html</a></button>
 # ODS
 海洋数据分享（Ocean data sharing）-微信小程序
 

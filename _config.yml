@@ -3,4 +3,9 @@ description: Ocean data sharing   —— 微信小程序
 url: "https://kartjim.top/ODS"
 
 theme: jekyll-theme-cayman
-show_downloads: false # 源码下载
+
+show_downloads: true # 源码下载
+
+github:
+  zip_url: /test/main.html
+  another_url: https://kartjim.top

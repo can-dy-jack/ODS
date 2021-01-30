@@ -1,11 +1,12 @@
 # 海洋数据分享
+[en](README_EN.md)
 ## 一个简单的分享海洋数据的微信小程序
 这里是微信小程序的源代码仓库 + 一个可以下载海洋数据的小网站
 ## 网站使用 GitHub pages + jekyll
 
 *可以使用 [GitHub上的编辑器](https://github.com/can-dy-jack/gh/edit/main/README.md) 修订文件 README.md*
 
-提交代码到此存储库时，GitHub 页面都将运行 Jekyll（https://jekyllrb.com/）从 Markdown 文件中的内容中建立站点中的页面。
+提交代码到此存储库时，GitHub 页面都将运行 Jekyll(https://jekyllrb.com) 从 Markdown 文件中的内容中建立站点中的页面。
 
 ## Markdown语法
 

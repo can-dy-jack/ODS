@@ -2,8 +2,27 @@ Page({
   data: {
     msg: "日志",
     date: 2021,
-    isFree: true,
-    num: 0,
+    html: [
+      {
+        name: "div",
+        attrs:{
+          class: "my_div",
+          style: "color:red"
+        },
+        children:[
+          {
+            name: "p",
+            attrs:{},
+            children:[
+              {
+                type: "text",
+                text: "hello"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     datas: {
       sum: 200,
       tips: "海洋数据",

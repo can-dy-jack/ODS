@@ -2,12 +2,6 @@
 
 <view class="container">
 
-  <!-- 日志-->
-  <view  class="uploader">
-    <navigator url="loadlog/loadlog" open-type="navigate" class="uploader-text">
-      <text>下载记录</text>
-    </navigator>
-  </view>
   <!-- 正在下载 -->
   <view class="uploader">
     <navigator url="ing/ing" open-type="navigate" class="uploader-text">

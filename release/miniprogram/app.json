@@ -4,8 +4,8 @@
     "pages/home/home",
     "pages/download/dowanload",
     "pages/logs/logs",
-    "pages/test/test",
     "pages/data/data",
+    "pages/test/test",
 
     "pages/userConsole/userConsole",
     "pages/storageConsole/storageConsole",

@@ -19,3 +19,9 @@
         </view>
     </view>
 </view>
+
+<view>
+    <rich-text nodes="{{html}}"></rich-text>
+
+    
+</view> 

@@ -2,3 +2,25 @@
 .box_data {
     padding: 15px;
 }
+image {
+    box-sizing: border-box;
+    border: 2px solid red;
+    width: 100%;
+}
+.img {
+    width: 90%;
+    margin: auto;
+}
+swiper {
+    width: 95%;    
+    margin: auto;
+    height: calc(100vw * 1855 / 1400);
+    border: 2px solid red;
+}
+image {
+    width: 100%;
+}
+.na {
+    width: 100px;
+    margin: 5px auto;
+}

@@ -1,50 +1,33 @@
-# ODS
-海洋数据分享
-## Welcome to GitHub Pages
+# 海洋数据分享
+## 一个简单的分享海洋数据的微信小程序
+这里是微信小程序的源代码仓库 + 一个可以下载海洋数据的小网站
+## 网站使用 GitHub pages + jekyll
 
-You can use the [editor on GitHub](https://github.com/can-dy-jack/gh/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+*可以使用 [GitHub上的编辑器](https://github.com/can-dy-jack/gh/edit/main/README.md) 修订文件 README.md*
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+提交代码到此存储库时，GitHub 页面都将运行 Jekyll（https://jekyllrb.com/）从 Markdown 文件中的内容中建立站点中的页面。
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Markdown语法
 
 ```markdown
-Syntax highlighted code block
+代码高亮
 
-# Header 1
-## Header 2
-### Header 3
+# H1
+## H2
+### H3
 
-- Bulleted
-- List
+- 无序列表
+- 无序列表
 
-1. Numbered
-2. List
+1. 有序列表
+2. 有序列表
 
-**Bold** and _Italic_ and `Code` text
+**加粗** and _倾斜_ and `代码` 
 
-[Link](url) and ![Image](src)
+[链接](url) and ![图片](src)
 ```
+![图床](http://qnqn0qylz.hn-bkt.clouddn.com/shanghai.jpg)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+更多Markdown语法看： [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/can-dy-jack/gh/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
-
-
-<div>
-<h2>About Us</h2>
-<p>Lorem ipsum dolor si iste exercitationem v
-llendus laudantium ab possimus nemo odio cumque illum n
-ulla laborum blanditiis unde.</p>
-<p>consectetur adipisicing elit.  ut iste ipsum repe
-llendus laudantium ab possimus nemo odio cumque illum n
-ulla laborum blanditiis unde.</p>
-</div>
+### Jekyll Themes - jekyll-theme-cayman

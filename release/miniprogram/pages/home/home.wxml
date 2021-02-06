@@ -1,23 +1,6 @@
 <!-- pages/home/home.wxml -->
-<view class="container">
-  <!-- 日志 -->
-  <view class="uploader">
-    <navigator url="../logs/logs" open-type="navigate" class="uploader-text">
-      <text>{{msg}}</text>
-    </navigator>
-  </view>
-
-  <!-- 测试 -->
-  <view class="uploader">
-    <navigator url="../test/test" open-type="navigate" class="uploader-text">
-      <text>{{test}}</text>
-    </navigator>
-  </view>
-
-  <!-- 数据 -->
-  <view class="uploader">
-    <navigator url="../data/data" open-type="navigate" class="uploader-text">
-      <text>{{datas}}</text>
-    </navigator>
-  </view>
+<view >
+  <text>{{msg}}</text>
+  <text>{{test}}</text>
+  <text>{{datas}}</text>
 </view>

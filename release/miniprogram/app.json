@@ -2,22 +2,7 @@
   "pages": [
     "pages/index/index",
     "pages/home/home",
-    "pages/download/download",
-    "pages/logs/logs",
-    "pages/data/data",
-    
-    "pages/userConsole/userConsole",
-    "pages/storageConsole/storageConsole",
-    "pages/databaseGuide/databaseGuide",
-    "pages/addFunction/addFunction",
-    "pages/deployFunctions/deployFunctions",
-    "pages/chooseLib/chooseLib",
-    "pages/openapi/openapi",
-    "pages/openapi/serverapi/serverapi",
-    "pages/openapi/callback/callback",
-    "pages/openapi/cloudid/cloudid",
-    "pages/im/im",
-    "pages/im/room/room"
+    "pages/data/data"
   ],
   "window": {
     "backgroundTextStyle": "dark",
@@ -40,7 +25,7 @@
       "selectedIconPath": "icon/home-focus.png"
     },
     {
-      "pagePath": "pages/download/dowanload",
+      "pagePath": "pages/data/data",
       "text": "下载",
       "iconPath": "icon/下载.png",
       "selectedIconPath": "icon/下载-focus.png"

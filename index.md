@@ -20,4 +20,4 @@
 ~~~
 待开发。。。。。。
 ~~~
-![img-test](http://qnqn0qylz.hn-bkt.clouddn.com/IMG20191202171058.jpg)
+![测试图片](http://qnqn0qylz.hn-bkt.clouddn.com/IMG20191202171058.jpg)

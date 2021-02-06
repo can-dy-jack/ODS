@@ -1,17 +1,24 @@
 {
   "pages": [
-    "pages/index/index",
     "pages/home/home",
-    "pages/data/data"
+    "pages/home/seaech/homeSe",
+    "pages/index/index",
+    "pages/data/data",
+    "pages/data/download/index",
+
+    "pages/test/test"
   ],
   "window": {
-    "backgroundTextStyle": "dark",
-    "navigationBarBackgroundColor": "#0090ff",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fcfcfc",
     "navigationBarTitleText": "海洋数据共享",
     "navigationBarTextStyle": "black",
-    "enablePullDownRefresh": true
+    "enablePullDownRefresh": false
   },
   "tabBar": {
+    "color": "#999",
+    "selectedColor": "#1296DB",
+    "backgroundColor":"#fafafa",
     "list": [{
       "pagePath": "pages/index/index",
       "text": "我的",
@@ -27,11 +34,10 @@
     {
       "pagePath": "pages/data/data",
       "text": "下载",
-      "iconPath": "icon/下载.png",
-      "selectedIconPath": "icon/下载-focus.png"
+      "iconPath": "icon/dl.png",
+      "selectedIconPath": "icon/dl-focus.png"
     }
   ],
-  "selectedColor": "#0090ff",
   "position": "bottom"
   },
   "sitemapLocation": "sitemap.json",

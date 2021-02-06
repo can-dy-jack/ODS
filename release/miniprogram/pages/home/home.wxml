@@ -1,6 +1,19 @@
 <!-- pages/home/home.wxml -->
-<view >
-  <text>{{msg}}</text>
-  <text>{{test}}</text>
-  <text>{{datas}}</text>
+<view class="ods_index">
+    <!-- 搜索框 - 自定义组件 -->
+    <searchInput></searchInput>
+
+    <!--测试用 - 接口文档 https://api-hmugo-web.itheima.net/api/public/v1/home/swiperdata -->
+    <view class="index_swiper">
+        <swiper>
+            <swiper-item 
+            wx:for="{{swiperList}}"
+            wx:key="goods_id">
+                <navigator>
+                    <image src="{{item.image_src}}"></image>
+                </navigator>
+            </swiper-item>
+        </swiper>
+    </view>
+
 </view>

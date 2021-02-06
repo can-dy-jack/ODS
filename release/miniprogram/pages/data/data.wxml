@@ -1,6 +1,9 @@
 <!--pages/data/data.wxml-->
 <view class="box_data">
     <view>{{projectName}}</view>
+    <view>
+        <text class=".iconfont .icon-data">数据下载</text>
+    </view>
 </view>
 
 

@@ -1,0 +1,5 @@
+<view class="search_input">
+   <navigator url="../../pages/home/seaech/homeSe" open-type="navigate">
+        <text class=".iconfont .icon-search">  search</text>
+   </navigator>
+</view>

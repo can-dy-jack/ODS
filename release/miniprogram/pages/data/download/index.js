@@ -1,20 +1,18 @@
+// pages/data/download/index.js
 Page({
+
+  /**
+   * 页面的初始数据
+   */
   data: {
-    swiperList:[]
+
   },
-  onLoad: function (_options) {
-    // 异步请求，获取轮播图数据
-    wx-wx.request({
-      url: 'https://api-hmugo-web.itheima.net/api/public/v1/home/swiperdata',
-      success: (result) => {
-        this.setData({
-          swiperList:result.data.message
-        })
-      },
-      fail: (res) => {
-          console.log("获取轮播图失败");
-      }
-    })
+
+  /**
+   * 生命周期函数--监听页面加载
+   */
+  onLoad: function (options) {
+
   },
 
   /**
@@ -48,15 +46,21 @@ Page({
   /**
    * 页面相关事件处理函数--监听用户下拉动作
    */
-  onPullDownRefresh: function () {},
+  onPullDownRefresh: function () {
+
+  },
 
   /**
    * 页面上拉触底事件的处理函数
    */
-  onReachBottom: function () {},
+  onReachBottom: function () {
+
+  },
 
   /**
    * 用户点击右上角分享
    */
-  onShareAppMessage: function () {}
+  onShareAppMessage: function () {
+
+  }
 })

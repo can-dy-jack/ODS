@@ -1,4 +1,5 @@
 {
-  "usingComponents": {},
-  "navigationBarTitleText": "账户"
+  "usingComponents": {
+    "searchInput":"../../components/searchInput/searchInput"
+  }
 }

@@ -1,4 +1,4 @@
-// pages/download/ing/ing.js
+// pages/download/download.js
 Page({
 
   /**

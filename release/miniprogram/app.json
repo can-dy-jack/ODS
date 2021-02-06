@@ -2,11 +2,10 @@
   "pages": [
     "pages/index/index",
     "pages/home/home",
-    "pages/download/dowanload",
+    "pages/download/download",
     "pages/logs/logs",
     "pages/data/data",
-    "pages/test/test",
-
+    
     "pages/userConsole/userConsole",
     "pages/storageConsole/storageConsole",
     "pages/databaseGuide/databaseGuide",
@@ -18,12 +17,7 @@
     "pages/openapi/callback/callback",
     "pages/openapi/cloudid/cloudid",
     "pages/im/im",
-    "pages/im/room/room",
-
-    "pages/download/ing/ing",
-    "pages/download/delete/del",
-    "pages/download/download/load",
-    "pages/download/loadlog/loadlog"
+    "pages/im/room/room"
   ],
   "window": {
     "backgroundTextStyle": "dark",

@@ -5,15 +5,44 @@
 
     <!--测试用 - 接口文档 https://api-hmugo-web.itheima.net/api/public/v1/home/swiperdata -->
     <view class="index_swiper">
-        <swiper>
+        <swiper autoplay indicator-dots circular>
             <swiper-item 
             wx:for="{{swiperList}}"
             wx:key="goods_id">
                 <navigator>
-                    <image src="{{item.image_src}}"></image>
+                    <image src="{{item.image_src}}" mode="widthFix"></image>
                 </navigator>
             </swiper-item>
         </swiper>
     </view>
+    
+    <view class="index_cate">
+    <navigator wx:for="{{catesList}}"
+    wx:key="name">
+        <image mode="widthFix" src="{{item.image_src}}"></image>
+    </navigator>
+    </view>
 
+    <view class="index_floor">
+        <view class="floor_group"
+        wx:for="{{floorList}}" 
+        wx:for-item="item1"
+        wx:for-index="inde1"
+        wx:key = "name"
+        >
+            <view class="floor_title">
+                <image src="{{item1.floor_title.image_src}}" mode="widthFix"></image>
+            </view>
+            <view class="floor_list">
+                <navigator 
+                wx:for="{{item1.product_list}}"
+                wx:for-item="item2"
+                wx:for-index="index2"
+                wx:key = "name"
+                >
+                <image src="{{item2.image_src}}" mode="{{ index2 ==0 ?'widthFix':'scaleToFill' }}"></image>
+                </navigator>
+            </view>
+        </view>
+    </view>
 </view>

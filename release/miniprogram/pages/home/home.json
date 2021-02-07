@@ -1,5 +1,6 @@
 {
   "usingComponents": {
     "searchInput":"../../components/searchInput/searchInput"
-  }
+  },
+  "enablePullDownRefresh":  true
 }

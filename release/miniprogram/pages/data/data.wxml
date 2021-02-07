@@ -1,4 +1,3 @@
-<!--pages/data/data.wxml-->
 <view class="box_data">
     <view>{{projectName}}</view>
     <view>
@@ -6,25 +5,8 @@
     </view>
 </view>
 
-
-<view class="na">
-    <navigator url="../download/download/load">下载 - 跳转</navigator>
-</view>
-
-
-<view>
-    <swiper autoplay="true" interval="4000" circular="true" indicator-dots="true" indicator-color="#acadec" indicator-active-color="blue"> <!-- 图片有默认宽、高 -->
-        <swiper-item>
-            <image mode="widthFix" src="http://qnqn0qylz.hn-bkt.clouddn.com/2-1.jpg" alt="二次元1" />
-        </swiper-item>
-        <swiper-item>
-            <image mode="widthFix" src="http://qnqn0qylz.hn-bkt.clouddn.com/2-2.jpg" alt="二次元2" />
-        </swiper-item>
-        <swiper-item>
-            <image mode="widthFix" src="http://qnqn0qylz.hn-bkt.clouddn.com/2-3.jpg" alt="二次元3" />
-        </swiper-item>
-    </swiper>
-</view>
 <view class="img">
-    <image src="http://qnqn0qylz.hn-bkt.clouddn.com/index.jpg" alt="二次元" mode="widthFix" lazy-load />
+    <image src="http://qnqn0qylz.hn-bkt.clouddn.com/index.jpg" alt="二次元" mode="widthFix" lazy-load/>
+
+    <button bindtap="picture">图片保存</button>
 </view>

@@ -1,0 +1,4 @@
+<view>
+    <button type="primary" plain="true" open-type="getUserInfo" 
+    bindgetuserinfo="bindGetUserInfo">登录</button>
+</view>

@@ -1,8 +1,9 @@
 {
   "pages": [
+    "pages/index/index",
+    "pages/index/user/index",
     "pages/home/home",
     "pages/home/seaech/homeSe",
-    "pages/index/index",
     "pages/data/data",
     "pages/data/download/index",
 

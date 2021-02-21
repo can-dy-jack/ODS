@@ -1,3 +1,19 @@
-<view>
-    
+<!-- 头像区域 -->
+<view class="user_infor_wrap">
+    <view class="user_img_wrap" wx:if="{{userinfo.avatarUrl}}">
+        <image class="user_img" src="{{userinfo.avatarUrl}}"></image>
+        <view class="user_info">
+            <image class="user_icon" src="{{userinfo.avatarUrl}}"></image>
+            <view class="user_name">{{userinfo.nickName}}</view>
+        </view>
+    </view>
+    <view class="user_btn" wx:else>
+            <navigator url="user/index">登录</navigator>
+        </view>
+</view>
+<!-- 信息 content -->
+<view class="user_content">
+    <view class="user_main">
+        123
+    </view>
 </view>

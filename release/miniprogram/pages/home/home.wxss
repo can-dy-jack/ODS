@@ -3,7 +3,7 @@
     width: 750rpx;
     height: 340rpx;
     /* test color */
-    background-color:  #1296DB ;
+     background-color:  #1296DB ;
 }
 
 .index_swiper swiper image {
@@ -34,7 +34,8 @@
     height: 27.7271vw;
     border-left: 10rpx solid #f5f5f5;
 }
-.index_floor .floor_group .floor_list navigator:nth-child(2),.index_floor .floor_group .floor_list navigator:nth-child(3) {
+.index_floor .floor_group .floor_list navigator:nth-child(2),
+.index_floor .floor_group .floor_list navigator:nth-child(3){
     border-bottom: 10rpx solid #f5f5f5;
 }
 .index_floor .floor_group .floor_list navigator image{
